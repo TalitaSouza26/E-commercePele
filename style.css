@@ -1,0 +1,456 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.page1 {
+    background: radial-gradient(circle at 50% 50%, #1f4947 20%, #002421);
+    display: flex;
+    width: 100%;
+   
+
+}
+
+.box1 {
+    width: 40vw;
+    height: 100vh;
+    background-image: url(./Assets/folhas-de-palmeira-tropical-padrao-de-fundo-projeto-de-decoracao-de-folhagem-de-arvore-monstera-verde-planta-com-folha-exotica-fechada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: column;
+}
+
+.box2 {
+    width: 60vw;
+    height: 100vh;
+    
+}
+
+header {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+.navheader{
+
+    margin-right: 40px;
+}
+
+.boxlink {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 45px;
+    height: 100%;
+    padding: 8px;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+}
+
+.back {
+    background: #c58255;
+    height: 100px;
+    width: 80px;
+    font-weight: 500;
+}
+
+a:hover {
+    border-bottom: solid 1px #e8a85c;
+}
+
+.boxmsg{
+
+    height: 20%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background: rgba(255, 250, 240, 0.37);
+    padding: 10px;
+    position: relative;
+      
+}
+
+.box-img-namelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+    
+}
+
+.box-namelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.divisao {
+    display: block;
+    height: 2px;
+    width: 80%;
+    background-color: rgb(245, 250, 255);
+    margin-top: 32px;
+    opacity: .2;
+}
+
+.box-icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.texapresentacao{
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.textap{
+    display: none;
+}
+
+.boxspace{
+    flex: 0.2;
+}
+
+.box-principal{
+
+    width: 100%;
+    display: flex;
+    
+}
+
+#imgmodel {
+    width:405px ;
+   position: relative;
+   right: 170px;
+}
+
+.box-info{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-full{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+    margin-right: 50px;
+    height:45%; 
+}
+
+.box-subtitle{
+  color: #ffffff;
+}
+
+span{
+    font-size: 50px;
+    color: #c58255;
+    text-align: end;
+}
+
+.box-subtitle{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 18px;
+   
+
+}
+
+.descricao-title{
+    width: 80%;
+    font-size: 20px;
+    text-align: end;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.box-button{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    width: 140px;
+    height: 40px;
+    font-size:17px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button-1{
+    background: #c58255;
+    color: #002421;
+}
+
+#button-2{
+    background: transparent;
+    border: solid #c58255 1px;
+    color: #ffffff;
+}
+
+
+
+
+
+.page2 {
+    background: #02534f;
+}
+
+.page3 {
+    background: #014340;
+}
+
+.page4 {
+    background: #013430;
+}
+
+.page5 {
+    background: #002421;
+}
+
+.interface {
+
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    scroll-snap-align: start;
+
+}
+
+h1 {
+
+    border: solid white;
+}
+
+.disp {
+    display: none;
+}
+
+.bar {
+    background: wheat;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    display: none;
+}
+   
+@media (width < 1700px){
+    #imgmodel{
+        display: none;
+    }
+
+    .box-principal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+    }
+    .box-info{
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60%;
+    }
+
+    .box-full{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-around;
+        margin-right: 50px;
+        height:85%; 
+    }
+
+    .descricao-title{
+        width:57%;
+        font-size: 20px;
+        text-align: end;
+        font-family: 'Quicksand', sans-serif;
+    
+    }
+
+    .disp {
+        display: none;
+    }
+    
+    }
+
+    @media (width < 1250px){
+
+        .boxlink {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            gap: 2px;
+            height: 100%;
+            padding: 8px;
+        }
+
+        .disp {
+            display: none;
+        }
+        
+        .texapresentacao{
+            font-size: 40px;
+            font-family: 'Quicksand', sans-serif;
+        
+        }
+
+
+    }
+
+
+@media (width < 950px) {
+        .page1 {
+
+            width: 100vw;
+
+        }
+
+        .box1 {
+            display: none;
+        }
+
+        .box2 {
+
+            width: 100%;
+        }
+
+        .boxlink {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .textap{
+            display: flex;
+            margin-left: 20px;
+            font-size: 22px;
+        }
+
+
+        .navheader {
+            display: flex;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 90px;
+            left: 0;
+            background: #9ea6a1b3;
+            border-radius: 0px 0px 120px;
+            width: 100%;
+            padding: 15px;
+
+        }
+
+        .change .bar:nth-child(1) {
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .change .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .change .bar:nth-child(3) {
+            transform: rotate(75deg) translate(-5px, -6px);
+        }
+
+        .bar {
+            display: flex;
+            margin-right: 20px;
+            background: #ffffff;
+        }
+
+        .back {
+            display: none;
+        }
+
+        .menu {
+            text-align: centere;
+        }
+
+        #imgmodel{
+            display: none;
+        }
+
+        .box-info{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            
+        }
+
+        .box-full{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height:100%;
+            margin: 0;
+            height: 250px;
+            text-align: center;
+         
+        }
+
+        .descricao-title{
+            display: none;
+        }
+
+        
+    }
+
+
