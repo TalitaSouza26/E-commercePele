@@ -5,5 +5,5 @@ const clicarAlerta = document.querySelector("#conhecaProdutos");
  });
 
  function irParaPagina2() {
-    window.location.href = 'index.html';
+    window.location.href = 'ecommerce.html';
 }

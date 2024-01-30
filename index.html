@@ -1,179 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="./login.css">
+    <title>BEM VINDO</title>
 </head>
-
 <body>
-    <div class="interface">
-        <section class="page1">
-            <div class="box1">
 
-
-                <div class="boxspace">
-
-                </div>
-
-
-                <div class="boxmsg">
-                    <p class="title">
-                        <b>SINTA-SE LIVRE +</b> <br>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus cum eaque repellendus esse.
-                    </p>
-                </div>
-                <div class="box-img-namelogo">
-                    <div class="box-namelogo">
-                        <p class="texapresentacao">
-                            ELIZA NATURE
-                        <div class="divisao"></div>
-                        <div class="box-icons">
-                            <a href="" class="link-icons"><img src="./Assets/instagram.png" alt=""></a>
-                            <a href="" class="link-icons"> <img src="./Assets/simbolo-de-aplicativo-do-facebook.png"
-                                    alt=""> </a>
-                            <a href="" class="link-icons"> <img src="./Assets//whatsapp.png" alt=""></a>
-                        </div>
-                        </p>
-                    </div>
+    <div class="container">
+        <div class="boxtexto">
+        <div class="boxelemento">
+            <div class="animacaoBorda"></div>
+            <div class="corner">
+                <div class="content">
+                    <span><b>ELIZA NATURE</b></span>
+                   <p>
+                    É a marca perfeita para quem gosta de produtos que vem diretamente da natureza com um toque de elegancia e requinte.
+                    A busca por novos ingredientes, meios de sustentabilidade e fragrências exclusivas que traduzem a essência do Brasil faz todo o nosso diferencial.
+                   </p>
+                   <a id="conhecaProdutos" href="#">Conheça nossos produtos.</a> 
                 </div>
             </div>
-
-            <div class="box2">
-                <header>
-                    <p class="textap">
-                        ELIZA NATURE
-                    </p>
-
-                    <div class="menu">
-                        <div id="bar1" class="bar"></div>
-                        <div id="bar2" class="bar"></div>
-                        <div id="bar3" class="bar"></div>
-                    </div>
-                    <div class="navheader">
-                        <ul class="boxlink">
-                            <li class="lik"><a href="" class="boxlink disp">Ínicio</a></li>
-                            <li class="lik back"><a href="" class="boxlink">Ínicio</a></li>
-                            <li class="lik"><a href="" class="boxlink">Sobre</a></li>
-                            <li class="lik"><a href="" class="boxlink">Contato</a></li>
-                            <li class="lik"><a href="#pd" class="boxlink">Produtos</a></li>
-                            <li class="lik"><a href="" class="boxlink">Envios</a></li>
-
-                        </ul>
-                    </div>
-                </header>
-                <div class="box-principal">
-                    <img id="imgmodel" src="./Assets/Model.png" alt="">
-                    <div class="box-info">
-                        <div class="box-full">
-                            <div class="box-title">
-                                <span> SINTA-SE
-                                    <div class="box-subtitle">
-                                        Esse é o seu melhor momento
-                                    </div>
-                                </span>
-
-                            </div>
-                            <p class="descricao-title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing Beatae quod, quisquam
-                                consequuntur id nesciunt velit fugit pariatur Lorem ipsum dolor sit amet.
-                            </p>
-                            <div class="box-button">
-                                <button id="button-1">Explore</button><button id="button-2">Contate</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="page2">
-            <div class="box-full-card">
-
-            </div>
-            <div class="box-full-card1">
-
-                <div class="box-opcoes">
-                    <span class="eliza">
-                        ELIZA NATURE
-                    </span>
-                    <hr>
-                    <div class="boxlinks">
-                        <a href="#pd">Perfumes</a>
-                        <a href="#pd">Pele</a>
-                        <a class="hair" id="mostrar" href="#pd">Cabelo</a>
-                        <a href="#pd">Aromas</a>
-                        <a href="#pd">Maquiagem</a>
-                    </div>
-                </div>
-                <div class="box-cards">
-                    <ul class="produto" id="pd">
-                        <li class="box-product"><a href="#" class="link-procuct">
-                                <img class="abrirModal-js" src="./Assets/cabelo8.jpg" alt="">
-                                <p class="descrition">
-                                    Kit Restaurador
-                                </p>
-                                <p class="price">
-                                    250.00
-                                </p>
-                            </a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="box-full-card2">
-            </div>
-
-            <div class="modal" id="modal">
-    
-                <header class="header-modal">
-                  <button class="fecharModal-js" type="button">Fechar</button>
-                  <img src="./Assets/cabelo8.jpg" alt="" class="img-modal">
-                </header>
-                <div class="box-info-product-modal">
-                  <div class="box-p-modal">
-                    <p class="title-modal-product"> <b>Kit Restaurador
-                      <hr></b> </p>
-                    <p class="descicao-modal-product">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aut voluptates autem molestias perspiciatis hic enim, modi ea. Dolore ex veniam ab beatae minus asperiores iusto quo 
-                    </p>
-                  </div>
-                  <div class="box-button-modal">
-                     <button class="button-1">250.00</button>
-                    <button  class="button-2">Comprar</button>
-                  </div>
-                </div>
-                <p class="paragrafo-modal"></p>
-              </div>
-        </section>
-
-        <section class="page3">
-            <h1>PAGINA 3</h1>
-        </section>
-
-        <section class="page4">
-            <h1>PAGINA 4</h1>
-        </section>
-
-        <section class="page5">
-            <h1>PAGINA 5</h1>
-        </section>
-
+        </div>
     </div>
-
-    <script src="./script.js"></script>
-    <script src="./product.js"></script>
-    <script src="./modal.js"></script>
+    <div class="boxelementos"> 
+    <div class="boxlogin"> 
+        <div class="logo">LIVE NAUTURE</div>
+            <h1 class="title">Faça o seu Longin</h1>
+                <form action="javascript:;" method="post"> <input type="email" name="email" placeholder="Seu E-mail">
+                    <input type="password" name="password" placeholder="Sua Senha">
+                    <button type="submit"  onclick="irParaPagina2()">Entrar</button>
+                    <div class="divisao"></div>
+                    <a class="conta" href="#" title="criar uma conta">Criar uma conta</a>
+                 <ul>
+                    <li>       <a class="icone" href="#"> <img src="./Assets/icons8-google-48.png" alt="icone goole"></a>
+                   </li>
+                   <li> <a class="icone" href="#"><img src="./Assets/icons8-facebook-48.png" alt="icone facebook"></a></li>
+                 </ul>
+                </form></div>
+             
+        </div>
+    </div>
+    <script src="./alert.js" defer></script>
 </body>
-
 </html>
