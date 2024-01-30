@@ -40,7 +40,8 @@
                         <div class="divisao"></div>
                         <div class="box-icons">
                             <a href="" class="link-icons"><img src="./Assets/instagram.png" alt=""></a>
-                            <a href="" class="link-icons"> <img src="./Assets/simbolo-de-aplicativo-do-facebook.png" alt=""> </a>
+                            <a href="" class="link-icons"> <img src="./Assets/simbolo-de-aplicativo-do-facebook.png"
+                                    alt=""> </a>
                             <a href="" class="link-icons"> <img src="./Assets//whatsapp.png" alt=""></a>
                         </div>
                         </p>
@@ -65,9 +66,9 @@
                             <li class="lik back"><a href="" class="boxlink">Ínicio</a></li>
                             <li class="lik"><a href="" class="boxlink">Sobre</a></li>
                             <li class="lik"><a href="" class="boxlink">Contato</a></li>
-                            <li class="lik"><a href="" class="boxlink">Produtos</a></li>
+                            <li class="lik"><a href="#pd" class="boxlink">Produtos</a></li>
                             <li class="lik"><a href="" class="boxlink">Envios</a></li>
-                          
+
                         </ul>
                     </div>
                 </header>
@@ -84,22 +85,76 @@
 
                             </div>
                             <p class="descricao-title">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quod, quisquam
+                                Lorem ipsum dolor sit amet consectetur adipisicing Beatae quod, quisquam
                                 consequuntur id nesciunt velit fugit pariatur Lorem ipsum dolor sit amet.
                             </p>
                             <div class="box-button">
-                                <button id="button-1">Explore</button><button id="button-2" >Contate</button>
+                                <button id="button-1">Explore</button><button id="button-2">Contate</button>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-
         </section>
 
         <section class="page2">
-            <h1>PAGINA 2</h1>
+            <div class="box-full-card">
+
+            </div>
+            <div class="box-full-card1">
+
+                <div class="box-opcoes">
+                    <span class="eliza">
+                        ELIZA NATURE
+                    </span>
+                    <hr>
+                    <div class="boxlinks">
+                        <a href="#pd">Perfumes</a>
+                        <a href="#pd">Pele</a>
+                        <a class="hair" id="mostrar" href="#pd">Cabelo</a>
+                        <a href="#pd">Aromas</a>
+                        <a href="#pd">Maquiagem</a>
+                    </div>
+                </div>
+                <div class="box-cards">
+                    <ul class="produto" id="pd">
+                        <li class="box-product"><a href="#" class="link-procuct">
+                                <img class="abrirModal-js" src="./Assets/cabelo8.jpg" alt="">
+                                <p class="descrition">
+                                    Kit Restaurador
+                                </p>
+                                <p class="price">
+                                    250.00
+                                </p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-full-card2">
+            </div>
+
+            <div class="modal" id="modal">
+    
+                <header class="header-modal">
+                  <button class="fecharModal-js" type="button">Fechar</button>
+                  <img src="./Assets/cabelo8.jpg" alt="" class="img-modal">
+                </header>
+                <div class="box-info-product-modal">
+                  <div class="box-p-modal">
+                    <p class="title-modal-product"> <b>Kit Restaurador
+                      <hr></b> </p>
+                    <p class="descicao-modal-product">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aut voluptates autem molestias perspiciatis hic enim, modi ea. Dolore ex veniam ab beatae minus asperiores iusto quo 
+                    </p>
+                  </div>
+                  <div class="box-button-modal">
+                     <button class="button-1">250.00</button>
+                    <button  class="button-2">Comprar</button>
+                  </div>
+                </div>
+                <p class="paragrafo-modal"></p>
+              </div>
         </section>
 
         <section class="page3">
@@ -117,6 +172,8 @@
     </div>
 
     <script src="./script.js"></script>
+    <script src="./product.js"></script>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
